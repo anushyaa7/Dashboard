@@ -1,13 +1,14 @@
 import React from "react";
 import "./App.css";
-import ProductTable from "./components/ProductTable";
-
+import Details from "./components/Details";
 
 
 function App() {
-  return (
-    <ProductTable />
-  )
-    
+  
+  return(
+    <div>
+    <Details/>
+  </div>
+  ) 
 }
 export default App;
