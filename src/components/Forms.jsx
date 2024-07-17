@@ -10,8 +10,8 @@ import BookmarkIcon from '@mui/icons-material/Bookmark';
 import SkipNextIcon from '@mui/icons-material/SkipNext';
 
 const Forms = ({ options, placeholder, radioOptions, buttonActions }) => {
-  const { selectedOption, handleChange } = radioOptions; // Corrected: use the passed props instead of calling the hook
-  const { handleReset, handleSaveDraft, handleNext } = buttonActions; // Corrected: use the passed props instead of calling the hook
+  const { selectedOption, handleChange } = radioOptions; 
+  const { handleReset, handleSaveDraft, handleNext } = buttonActions; 
 
   const buttons = [
     {
